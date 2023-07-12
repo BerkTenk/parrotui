@@ -1,14 +1,47 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  height: 4em ;
+  font-weight: bold;
+  width: 8em;
+  border-radius: 15%;
+}
+button.default:hover {
+  background-color: grey;
+}
+button.default{
+  background-color: lightgrey;
+}
+button.primary{
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+button.dashed{
+  background-color: lightgrey;
+  border-style: dashed;
+  border-color: grey;
+}
+button.text{
+  background-color: white;
+  border: 0;
+}
+button.link{
+  background-color: white;
+  color:blue;
+  border: 0;
+}
+button.primary:hover {
+  background-color: blue;
+}
+button.dashed:hover {
+  background-color: grey;
+}
+button.text:hover {
+  background-color: lightgray;
+}
+button.link:hover {
+  background-color: lightgray;
 }

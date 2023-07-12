@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'parrotui'
+import { Button } from 'parrotui'
 import 'parrotui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Button text="Default Button"  type={""||"default"} />
+      <Button text="Primary Button"  type="primary" />
+      <Button text="Dashed Button"  type="dashed" />
+      <Button text="Text Button"  type="text" />
+      <Button text="Link Button"  type="link" />
+    </>
+  )
 }
 
 export default App
